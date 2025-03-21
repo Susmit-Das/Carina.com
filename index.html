@@ -26,15 +26,16 @@
 <nav class="bg-gray-200 px-6 py-3 flex justify-between items-center sticky top-0 z-10">
     <!-- Logo and Hamburger Menu -->
     <div class="flex items-center space-x-4">
-        <img src="logo.jpg" alt="Logo" class="h-8">
         <button id="menu-toggle" class="md:hidden text-gray-700 hover:text-gray-900">
             ☰
         </button>
+        <img src="logo.jpg" alt="Logo" class="h-8">
+        
     </div>
 
     <!-- Desktop Menu -->
     <ul class="hidden md:flex space-x-6 text-gray-700">
-        <li><a href="rings.html" class="text-blue-600 border-b-2 border-blue-600">Rings</a></li>
+        <li><a href="rings.html" class="hover:text-gray-900 ">Rings</a></li>
         <li><a href="necklaces.html" class="hover:text-gray-900">Necklaces</a></li>
         <li><a href="jewelry-set.html" class="hover:text-gray-900">Jewelry Set</a></li>
         <li><a href="about.html" class="hover:text-gray-900">About Us</a></li>
@@ -53,18 +54,19 @@
     <!-- Mobile Dropdown Menu -->
     <ul id="mobile-menu" class="hidden flex-col space-y-4 p-4 bg-white shadow-md md:hidden">
         <li><a href="rings.html" class="hover:text-pink-500">Rings</a></li>
-        <li><a href="#" class="hover:text-pink-500">Necklace</a></li>
-        <li><a href="#" class="hover:text-pink-500">Jewelry Set</a></li>
-        <li><a href="#" class="hover:text-pink-500">About Us</a></li>
+        <li><a href="necklaces.html" class="hover:text-pink-500">Necklace</a></li>
+        <li><a href="jewelry-set.html" class="hover:text-pink-500">Jewelry Set</a></li>
+        <li><a href="about.html" class="hover:text-pink-500">About Us</a></li>
     </ul>
 
     <!-- Search Bar -->
-    <div class="flex justify-center mt-4">
-        <div class="flex items-center bg-white text-black rounded-full px-4 py-2 w-96 md:w-[500px] lg:w-[600px] shadow-md">
-            <img src="loupe.png" alt="Search" class="h-5 w-5">
-            <input id="search-bar" type="text" placeholder="Search..." class="bg-transparent outline-none px-3 flex-grow">
+    <div class="flex justify-center mt-4 px-4">
+        <div class="flex items-center bg-white text-black rounded-full px-4 py-2 w-60 sm:w-80 md:w-[500px] lg:w-[600px] shadow-md">
+            <img src="loupe.png" alt="Search" class="w-5 h-5">
+            <input id="search-bar" type="text" placeholder="Search..." class="bg-transparent outline-none px-3 flex-grow text-sm">
         </div>
     </div>
+    
     
     <!-- Hero Section -->
     <section class="relative w-full h-[400px] bg-cover bg-center flex flex-col justify-center items-center text-center" style="background-image: url('background.jpg');">
@@ -82,19 +84,19 @@
         <div class="bg-white p-4 shadow-md rounded-lg flex flex-col items-center text-center transition-transform transform hover:scale-105 hover:shadow-lg duration-300">
             <img src="jhumka.jpg" class="w-full h-72 object-cover rounded-md">
             <h3 class="font-bold mt-2 hover:text-pink-500 transition-colors duration-300">Jhumka</h3>
-            <p class="text-lg font-semibold">$230</p>
+            <p class="text-lg font-semibold">₹230</p>
             <p class="text-sm text-gray-500">126 items sold</p>
         </div>
         <div class="bg-white p-4 shadow-md rounded-lg flex flex-col items-center text-center transition-transform transform hover:scale-105 hover:shadow-lg duration-300">
             <img src="chain.JPG" class="w-full h-72 object-cover rounded-md">
             <h3 class="font-bold mt-2 hover:text-pink-500 transition-colors duration-300">Chain</h3>
-            <p class="text-lg font-semibold">$190</p>
+            <p class="text-lg font-semibold">₹190</p>
             <p class="text-sm text-gray-500">243 items sold</p>
         </div>
         <div class="bg-white p-4 shadow-md rounded-lg flex flex-col items-center text-center transition-transform transform hover:scale-105 hover:shadow-lg duration-300">
             <img src="kaner.JPG" class="w-full h-72 object-cover rounded-md">
             <h3 class="font-bold mt-2 hover:text-pink-500 transition-colors duration-300">Classic Top</h3>
-            <p class="text-lg font-semibold">$150</p>
+            <p class="text-lg font-semibold">₹150</p>
             <p class="text-sm text-gray-500">199 items sold</p>
         </div>
     </div>
