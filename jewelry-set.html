@@ -12,10 +12,11 @@
 <nav class="bg-gray-200 px-6 py-3 flex justify-between items-center sticky top-0 z-10">
     <!-- Logo and Hamburger Menu -->
     <div class="flex items-center space-x-4">
-        <img src="logo.jpg" alt="Logo" class="h-8">
         <button id="menu-toggle" class="md:hidden text-gray-700 hover:text-gray-900">
             ☰
         </button>
+        <img src="logo.jpg" alt="Logo" class="h-8">
+        
     </div>
 
     <!-- Desktop Menu -->
@@ -23,7 +24,7 @@
         <li><a href="index.html" class="hover:text-gray-900">Home</a></li>
         <li><a href="rings.html" class="hover:text-gray-900">Rings</a></li>
         <li><a href="necklaces.html" class="hover:text-gray-900">Necklaces</a></li>
-        <li><a href="jewelry-set.html" class="text-blue-600 border-b-2 border-blue-600">Jewellery Set</a></li>
+        <li><a href="jewelry-set.html" class="text-blue-600">Jewellery Set</a></li>
         <li><a href="about.html" class="hover:text-gray-900">About Us</a></li>
     </ul>
 
@@ -32,9 +33,9 @@
         <button class="text-gray-700 hover:text-gray-900">
             <img src="shopping-cart.png" alt="Cart" class="h-6 w-6">
         </button>
-        <button class="text-gray-700 hover:text-gray-900">
-            <img src="profile.png" alt="Profile" class="h-6 w-6">
-        </button>
+        <a href="sign-up.html">
+            <button class="bg-blue-500 text-white px-4 py-2 rounded-md">Sign Up</button>
+        </a>
     </div>
 </nav>
 
@@ -44,7 +45,7 @@
     <li><a href="index.html" class="hover:text-pink-500">Home</a></li>
     <li><a href="rings.html" class="hover:text-pink-500">Rings</a></li>
     <li><a href="necklaces.html" class="hover:text-pink-500">Necklaces</a></li>
-    <li><a href="jewelry-set.html" class="text-blue-600 border-b-2 border-blue-600">Jewelry Set</a></li>
+    <li><a href="jewelry-set.html" class="text-blue-600">Jewelry Set</a></li>
     <li><a href="about.html" class="hover:text-pink-500">About Us</a></li>
 </ul>
 
@@ -64,7 +65,8 @@
     </section>
     
     <!-- Necklace Grid -->
-    <section class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 pb-16 px-4">
+    <section class="container mx-auto px-4 pb-16">
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 justify-center">
         <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
             <img src="silver-set.webp" alt="Royal Diamond Ring" class="w-full h-48 object-cover">
             <div class="p-4">
